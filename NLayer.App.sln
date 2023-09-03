@@ -5,15 +5,13 @@ VisualStudioVersion = 17.6.33829.357
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NLayer.Core", "NLayer.Core\NLayer.Core.csproj", "{A2653112-04D4-47FC-B11F-53465E147532}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NLayer.Repository", "NLayer.Repository\NLayer.Repository.csproj", "{E2467BBD-2E05-4508-AEB5-3B615FEB3539}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NLayer.Repository", "NLayer.Repository\NLayer.Repository.csproj", "{E2467BBD-2E05-4508-AEB5-3B615FEB3539}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NLayer.API", "NLayer.API\NLayer.API.csproj", "{FC780261-95A3-4E98-B2F8-57447B6C6C1D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NLayer.Web", "NLayer.Web\NLayer.Web.csproj", "{EDF76ED1-E142-4D7A-B210-6DBBF2071A59}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NLayer.Caching", "NLayer.Caching\NLayer.Caching.csproj", "{278CE389-3A60-4D58-9525-B7F8447B0E30}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NLayer.Caching", "NLayer.Caching\NLayer.Caching.csproj", "{278CE389-3A60-4D58-9525-B7F8447B0E30}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NLayer.Service", "NLayer.Service\NLayer.Service.csproj", "{F7382E76-41C0-4AEC-95C7-2ABFCB6A2174}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NLayer.Service", "NLayer.Service\NLayer.Service.csproj", "{F7382E76-41C0-4AEC-95C7-2ABFCB6A2174}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,10 +31,6 @@ Global
 		{FC780261-95A3-4E98-B2F8-57447B6C6C1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FC780261-95A3-4E98-B2F8-57447B6C6C1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FC780261-95A3-4E98-B2F8-57447B6C6C1D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{EDF76ED1-E142-4D7A-B210-6DBBF2071A59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{EDF76ED1-E142-4D7A-B210-6DBBF2071A59}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{EDF76ED1-E142-4D7A-B210-6DBBF2071A59}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{EDF76ED1-E142-4D7A-B210-6DBBF2071A59}.Release|Any CPU.Build.0 = Release|Any CPU
 		{278CE389-3A60-4D58-9525-B7F8447B0E30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{278CE389-3A60-4D58-9525-B7F8447B0E30}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{278CE389-3A60-4D58-9525-B7F8447B0E30}.Release|Any CPU.ActiveCfg = Release|Any CPU
